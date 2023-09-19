@@ -134,4 +134,4 @@ def main(page: ft.Page):
 
 
 if __name__ == '__main__':
-    ft.app(port=12500, target=main, view=ft.WEB_BROWSER)
+    ft.app(target=main)
